@@ -4,6 +4,8 @@
   "description": "Social network web app API",
   "main": "server.js",
   "scripts": {
+    "start": "node server",
+    "seed": "node utils/seed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
