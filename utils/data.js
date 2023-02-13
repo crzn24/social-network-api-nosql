@@ -97,13 +97,13 @@ const reactionArray = [
 // Get a random item given an array
 const getRandomArrItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
-// get random username
+// Get random username
 const getRandomUsername = () => getRandomArrItem(usernameArray);
 
-// get random email
+// Get random email
 const getRandomEmail = () => getRandomArrItem(emailArray);
 
-// Function to generate random thoughts that we can add to user object.
+// Function to generate random thoughts to add to user object
 const getRandomThought = (int) => {
     const results = [];
     for (let i = 0; i < int; i++) {
